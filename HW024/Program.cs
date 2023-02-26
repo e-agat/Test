@@ -8,9 +8,9 @@ int n = int.Parse(Console.ReadLine());
 
 int i = 1;
 
-while(i<n)
+while (i <= n)
 {
-    Console.Write(Math.Pow(i, 2) + ", ");
+    Console.Write(Math.Pow(i, 2));
+    Console.Write(i==n ? "." : ", ");
     i++;
 }
- Console.Write(Math.Pow(i, 2) + ".");
