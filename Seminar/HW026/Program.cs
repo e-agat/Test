@@ -8,11 +8,11 @@ Console.Clear();
 Console. WriteLine("Введите число ");
 int a = Convert.ToInt32(Console.ReadLine());
 
-int GetLenghtNumberToStr(int value) 
+/*int GetLenghtNumberToStr(int value) 
 {
     string spamNumber = value.ToString();
     return spamNumber.Length;
-}
+}*/
 int GetLenghtNumberMath(int value)
 {
     if( value == 0)
