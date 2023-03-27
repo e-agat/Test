@@ -25,5 +25,5 @@ void FindSecondArray(string[] array1, string[] array2)
 }
 
 FindSecondArray(array1, array2);
-
+Console.WriteLine($"[{String.Join(", ", array1)}] -> [{String.Join(" ", array2)}]");
 
