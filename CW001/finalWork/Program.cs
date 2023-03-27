@@ -24,5 +24,6 @@ void FindSecondArray(string[] array1, string[] array2)
     }
 }
 
+FindSecondArray(array1, array2);
 
 
